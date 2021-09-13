@@ -1,0 +1,100 @@
+.productdiv{
+    width: 100%;
+    img{
+
+        width: 85%;
+    }
+    .proabout{
+        h5{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .ikons{
+            i{
+                color: #fe6a4c;
+                margin-right: 3px;
+                font-size: 13px;
+            }
+            i:nth-child(5){
+                color: #747474;
+            }
+            span{
+                color: #42896e;
+                margin-left: 20px;
+                font-size: 13px;
+            }
+        }
+        h6{
+            color: black;
+            margin: 20px 0;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .about{
+            color: #747474;
+        }
+        p{
+            color: black;
+            font-size: 14px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            span{
+                color: #42896e;
+            }
+        }
+        input{
+            margin-right: 20px;
+            text-align: center;
+            width: 70px;
+            height: 50px;
+            border:1px solid #7474742f;
+        }
+        button{
+            width: 300px;
+            height: 50px;
+            border: none;
+            margin: 10px 0 20px;
+            color: rgb(245, 234, 234);
+            background-color: black;
+            transition: 0.5s;
+            border-radius: 2px;
+            &:hover{
+                background-color: #ff6a28;
+                border: 2px solid black;
+            }
+        }
+        i{
+            margin-right: 50px;
+            font-size: 14px;
+            color: #747474;
+            margin-bottom: 20px;
+        }
+    .divikon5{
+        i{
+            font-size: 17px;
+            margin-right: 10px;
+            margin-top: 50px;
+        }
+    }
+}
+.imgslider{
+    display: flex;
+    flex-direction: row;
+
+    width: 35%;
+    .imgs{
+        width: 490px;
+        overflow: hidden;
+        img{
+        width: 100px;
+        margin-left: 15px;
+    }
+
+}
+i{
+        margin-top: 10%;
+}
+.fa-angle-right{
+margin-left: 5px;
+} 
+
+} 
+}

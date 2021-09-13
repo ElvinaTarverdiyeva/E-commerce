@@ -1,0 +1,110 @@
+.btn-but
+{
+    color: white;
+    background-color: #ff6a28;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 2px;
+    transition: .4s;
+    text-decoration: none;
+
+    &:hover
+    {
+        color: white;
+        background-color: #242424;
+    }
+}
+
+.card
+{
+    border: none !important;
+
+    audio
+    {
+        display: none;
+    }
+
+    .card-text
+    {
+        font-size: 14px;
+        color: #747474;
+    }
+
+    .card-body
+    {
+        padding-left: 0;
+    }
+}
+
+.blogRight
+{
+
+    input
+    {
+        height: 41px;
+        width: 100%;
+        padding-left: 15px; 
+        outline: none;
+        border-radius: 20px;
+        border: 0;
+        background-color: #f8f8f8;
+    }
+    hr
+    {
+        margin: 30px 0;
+    }
+    .bligRightTitle
+    {
+        margin-bottom: 20px;
+    }
+
+    .titlesBlog
+    {
+        ul
+        {
+            li
+            {
+                font-size: 14px;
+                list-style: none;
+                margin-left: -30px;
+                transition: .4s;
+                cursor: pointer;
+
+                &:hover
+                {
+                    color: #ff6a28;
+                }
+            }
+            
+        }
+    }
+}
+
+.nextPageDiv
+{
+    border: 1px solid #24242448;
+    height: 60px;
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button
+    {
+        border: none;
+        margin-right: 5px;
+        padding: 5px 10px;
+        
+    }
+
+    .activeNextP
+    {
+        background-color: #ff6a28;
+        color: white;
+    }
+}
+
+.blogTitle
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

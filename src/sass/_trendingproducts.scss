@@ -1,0 +1,71 @@
+.boxes{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+    position: absolute;
+    top: 0.8rem;
+    right: 2rem;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    i{
+        padding: 0.7rem;
+    }
+    hr{
+        margin: 0;
+    }
+}
+.quickview{
+    padding: 15px 90px;
+    border: none;
+    background-color: white;
+    color:#9c9eb3 ;
+    position: absolute;
+    left: 24px;
+    display: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 17px;
+}
+.trending{
+    text-align: center;
+    .row{
+        .col-xs-12{
+            position: relative;
+            #secondcardphoto{
+                position: absolute;
+                top: 0;
+                opacity: 0;
+                transition: 0.4s ease-in-out;
+            }
+            &:hover{
+                #firstcardphoto{
+                    opacity: 0;
+                    transition: 0.4s ease-in-out;
+                }
+                #secondcardphoto{
+                   opacity: 1;
+                   transition: 0.4s ease-in-out;
+                }
+                .boxes{
+                    opacity: 1;
+                    transition: 0.4s ease-in-out;
+                }
+                .quickview{
+                    display: block;
+                    animation: example 0.3s linear;
+                    top: 80%;
+                }
+            }
+        }
+    }
+}
+@keyframes example {
+    from{
+        top: 90%;
+    }
+    to{
+        top: 80%;
+    }
+}
